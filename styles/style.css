@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Super Smash 4.1";
+  src: url("/SSBU.ttf") format("truetype");
+}
 section {
   background-color: #131414;
   height: 1500px;
@@ -50,8 +54,20 @@ section {
   grid-row: 2/3;
 }
 
+img {
+  width: 600px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+}
+
 h1 {
   text-align: center;
+  font-family: "Super Smash 4.1";
 }
 
 h2 {
