@@ -12,7 +12,7 @@ a {
     &.Accueil{
         color: #fff;
         background-color: #333;
-        transition: all 1s ease-out;
+        transition: all 0.5s ease-out;
         border-radius: 5px;
 
   
@@ -33,8 +33,9 @@ a {
 }
 
 section {
-    background-color: rgb(19, 20, 20);
+    background-image: url(../img/pokemon-background-lilac.jpg);
     height: 1500px;
+    background-size: contain;
     
 }
 .grille {
