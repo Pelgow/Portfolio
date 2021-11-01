@@ -27,7 +27,7 @@ section {
 
 .grille2 {
   max-width: 1000px;
-  background-color: #2a2c2c;
+  background-color: white;
   height: 100%;
   margin: 0 auto;
   display: grid;
@@ -98,6 +98,16 @@ nav {
   text-align: center;
   display: flex;
   justify-content: space-between;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
