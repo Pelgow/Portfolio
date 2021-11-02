@@ -29,6 +29,9 @@ section {
   height: 1500px;
   background-size: contain;
 }
+section.Skillpage {
+  height: 100%;
+}
 
 .grille {
   max-width: 1000px;
@@ -155,6 +158,9 @@ p {
   padding: 10px;
   line-height: 25px;
 }
+p.hiddenparagraph {
+  background-color: #7c4492;
+}
 
 nav {
   height: 100%;
@@ -188,6 +194,15 @@ ul {
   flex-direction: column;
   align-items: center;
   padding-bottom: 5%;
+  border: solid 1px black;
+  margin-bottom: 5%;
+}
+
+.Skills1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5%;
 }
 
 .Project {
@@ -195,6 +210,13 @@ ul {
   flex-direction: column;
   align-items: center;
   padding-bottom: 5%;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #7c4492;
+  display: none;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -33,6 +33,9 @@ section {
     background-image: url(../img/pokemon-background-lilac.jpg);
     height: 1500px;
     background-size: contain;
+    &.Skillpage {
+       height: 100%;
+    }
     
 }
 .grille {
@@ -163,6 +166,9 @@ p {
     text-align: center;
     padding: 10px;
     line-height: 25px;
+    &.hiddenparagraph{
+        background-color:  rgb(124, 68, 146);
+    }
 }
 
 
@@ -199,6 +205,15 @@ ul {
     flex-direction: column;
     align-items: center;
     padding-bottom: 5%;
+    border: solid 1px black;
+    margin-bottom: 5%;
+}
+
+.Skills1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5%;
 }
 
 
@@ -209,5 +224,12 @@ ul {
     padding-bottom: 5%;
     
 }
+
+.panel {
+    padding: 0 18px;
+    background-color:  rgb(124, 68, 146);
+    display: none;
+    overflow: hidden;
+  }
 
 
