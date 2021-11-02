@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-size: 20px;
 }
 
 @font-face {
@@ -22,12 +23,6 @@ a.Accueil:hover {
   color: #333;
   background-color: #fff;
 }
-a:hover {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-  transition: 0.5s;
-}
 
 section {
   background-image: url(../img/pokemon-background-lilac.jpg);
@@ -37,7 +32,7 @@ section {
 
 .grille {
   max-width: 1000px;
-  background-color: white;
+  background-color: #6c5aaf;
   height: 100%;
   margin: 0 auto;
   display: grid;
@@ -66,19 +61,29 @@ section {
   box-shadow: 0 8px 16px rgba(7, 7, 7, 0.589);
 }
 .item.item1 {
-  background-color: red;
+  background-color: #b67171;
   grid-column: 1/2;
   grid-row: 2/3;
 }
 .item.item2 {
-  background-color: greenyellow;
+  background-color: #7c4492;
   grid-column: -1/-2;
   grid-row: 2/3;
 }
 
 img {
-  width: 600px;
+  width: 100%;
   border-radius: 15px;
+}
+img:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+img.Language {
+  padding: 5%;
+  width: 50%;
 }
 
 .img {
@@ -90,13 +95,16 @@ img {
 
 h1 {
   position: relative;
-  color: #000;
+  color: #a0a0a0;
   text-decoration: none;
   text-align: center;
   font-size: 40px;
+  margin-top: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 h1:hover {
-  color: #000;
+  color: white;
 }
 h1::before {
   content: "";
@@ -106,7 +114,7 @@ h1::before {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #000;
+  background-color: white;
   transform: scaleX(0);
   transition: transform 0.4s ease;
 }
@@ -120,6 +128,7 @@ h2 {
   text-decoration: none;
   text-align: center;
   margin: 15px;
+  font-size: 30px;
 }
 h2::before {
   content: "";
@@ -171,7 +180,21 @@ ul {
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  padding-inline-start: 20px;
+  padding: 20px;
+}
+
+.Skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5%;
+}
+
+.Project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5%;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-size: 20px;
 }
 @font-face {
     font-family: "Super Smash 4.1";
@@ -24,12 +25,8 @@ a {
         
         }
     }
-    &:hover {
-        -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-        transform: scale(1.1);
-        transition: 0.5s;
-    }
+    
+    
 }
 
 section {
@@ -40,7 +37,7 @@ section {
 }
 .grille {
     max-width: 1000px;
-    background-color: white;
+    background-color: rgb(108, 90, 175);
     height: 100%;
     margin: 0 auto;
     display: grid;
@@ -69,13 +66,13 @@ section {
     
 
     &.item1 {
-        background-color: red;
+        background-color: rgb(182, 113, 113);
         grid-column: 1 / 2;
         grid-row: 2 / 3;
         
     }
     &.item2 {
-        background-color: greenyellow;
+        background-color: rgb(124, 68, 146);
         grid-column: -1 / -2;
         grid-row: 2 / 3;
         
@@ -83,8 +80,18 @@ section {
 }
 
 img {
-    width: 600px;
+    width: 100%;
     border-radius: 15px;
+    &:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    &.Language{
+        padding: 5%;
+        width: 50%;
+    }
 }
 
 .img {
@@ -96,13 +103,16 @@ img {
 
 h1 {
     position: relative;
-    color: #000;
+    color: rgb(160, 160, 160);
     text-decoration: none;
     text-align: center;
     font-size: 40px;
+    margin-top: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
   
   &:hover {
-    color: #000;
+    color: rgb(255, 255, 255);
   }
   
   &::before {
@@ -113,7 +123,7 @@ h1 {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #000;
+    background-color: rgb(255, 255, 255);
     transform: scaleX(0);
     transition: transform 0.4s ease;
   }
@@ -128,6 +138,7 @@ h2 {
     text-decoration: none;
     text-align: center;
     margin: 15px;
+    font-size: 30px;
     &::before {
         content: "";
         position: absolute;
@@ -180,5 +191,23 @@ ul {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    padding-inline-start: 20px;
+    padding: 20px;
 }
+
+.Skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5%;
+}
+
+
+.Project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5%;
+    
+}
+
+
