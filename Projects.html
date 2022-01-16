@@ -6,8 +6,20 @@
     <title>My Skills</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
-<body>
+<body class="light parallax">
+    <div class="btn-toggle">Dark</div>
+    
     <section>
+        <div class="grille">
+        <nav>
+            <h1>Mon Portfolio</h1>
+            <div class="Home">
+
+                <div id="bulbasaur"><a class="Accueil" href="index.html"><h3>Home</h3></a></div>
+                <div id="charmander"><a class="Accueil" href="Skills.html"><h3>Skills</h3></a></div>
+                <div id="squirtle"><a class="Accueil" href="Projects.html"><h3>Mes Projets</h3></a></div>
+            </div>
+        </nav>
         <div class="grille2">
             
             <div class="item item1"> <h2>Mes anciens projets</h2>
@@ -19,23 +31,20 @@
                 </ul>
             </div>
             <div class="item item2"><h2>Mes projets actuels</h2>
+                <div class="center"><img class="pause" src="./img/cut-loop-60.jpg"><img class="loop" src="https://cdn.dribbble.com/users/470545/screenshots/2842684/cut-loop.gif"></div>
                 <ul>
                     <div class="Project"><a href="https://github.com/seinokoula/Dev_lab_S1"><li>Projet Devlab (Pour l'amour du bien, en cours)</li></a></div>
-                    <div class="Project"><li>Bourse aux projets (New Heroes, en cours)</li></div>
+                    <div class="Project"><a href="https://github.com/BAP01/newheroes"><li>Bourse aux projets (New Heroes, en cours)</li></a></div>
+                    <div class="Project"><a href="https://pelgow.github.io/integration/"><li>Entraînement intégration</li></a></div>
                     <div class="Project"><li>Projet Starter (Pokemon,personnel, en cours)</li></div>
                     <div class="Project"><li>Projet Style (amélioration js, css, en cours)</li></div>
+                   
                 </ul></div>
-            <nav>
-                <h1>Mon Portfolio</h1>
-                <div class="Home">
-
-                    <div><a class="Accueil" href="index.html">Home</a></div>
-                    <div><a class="Accueil" href="Skills.html">Skills</a></div>
-                    <div><a class="Accueil" href="Projects.html">Mes projets</a></div>
-                </div>
-            </nav>
-        </div>        
+            
+        </div>   
+    </div>     
     </section>
+    <script src="main.js"></script>
     
 </body>
 </html>
